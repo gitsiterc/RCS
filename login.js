@@ -22,6 +22,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         localStorage.setItem('isLoggedIn', 'true');
         window.location.href = 'home.html';
     } else {
-        alert('Ungültiger Benutzername oder Passwort');
+        alert('Ungültiger Benutzername oder Passwort (versuchs doch nochmal. Wenns dann immer noch nicht klappt hast du n schlechtes gedächtnis. LOL)');
     }
 });
