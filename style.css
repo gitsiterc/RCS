@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    background-color: black;
+    color:white;
+    font-family: "Manrope", system-ui;
+    letter-spacing: -3%;
+    font-weight: 600;
+    margin-right: 20em;
+    margin-left:20em;
+}
+.navbar{
+    width:100%;
+    font-size: 29px;
+    background-color:black;
+    height:76px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbardiv{
+    position:fixed;
+    right:0em;
+    left:20em;
+    top:0px;
+    border-bottom: 1px solid rgb(57, 57, 57);
+    margin-right: 20em !important;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: block;
+    z-index: 10000;
+}
+.line{
+    background-color: rgb(57, 57, 57);
+    height: 1px;
+    width:100%;
+    margin:3.1em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.line-nav{
+    background-color: rgb(57, 57, 57);
+    height: 0.5px;
+    width:100%;
+}
+.Account-btn{
+    color:white;
+    background-color: black;
+    border: solid 1px white;
+    border-radius:100px;
+    height: 38px;
+    width:185px;
+    font-size:18px;
+    position: absolute;
+    right:0px;
+    margin-right:0px;
+
+}
+.Account-btn:hover{
+    color:black;
+    background-color: white;
+    border: solid 1px white;
+}
+button{
+    color:black;
+    background-color:white;
+    border-radius:100px;
+    border:1px solid white;
+    height:44px;
+    width:156px;
+    font-size: 18px;
+    margin:2em;
+    margin-left:0px;
+}
+button:hover{
+    color:white;
+    background-color:rgba(0, 0, 0, 0);
+}
+p{
+    font-size: 37px;
+}
+.imagebox{
+    background-color:rgb(18, 18, 18);
+    border-radius:20px;
+    height:400px;
+    width:400px;
+    right:20em !important;
+    position:absolute;
+    z-index: 1;
+}
+.text{
+    color:rgb(77, 77, 77);
+    font-size: 18px;
+}
+.text-accent{
+    color: rgb(27, 00, 194);
+    font-size: 18px;
+}
+.spacer{
+    height:90px;
+}
+.popup {
+    position: fixed;
+    right:10em;
+    top: 86px;
+    border-radius:20px;
+    border:1px solid rgb(46, 46, 46);
+    background-color: rgba(80, 80, 80, 0.211);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    height:300px;
+    width:200px;
+    margin-right:25px;
+    margin-top:10px;
+    padding:5px;
+    word-wrap: break-word;
+}
+.popup p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.popup a {
+    font-size: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.popupbtn{
+    background-color:rgba(0, 0, 0, 0);
+    height: 30px;
+    padding:10px;
+    border-radius:15px;
+}
+.popupbtn p {
+    color:white;
+    margin:0px;
+    font-size:20px;
+}
+.popupbtn:hover{
+    background-color: rgb(27, 00, 194);
+}
+.nml{
+    display:flex;
+    align-items:center;
+    height: 500px;
+    width:100%;
+}

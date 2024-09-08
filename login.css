@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    background-color: black;
+    color:white;
+    font-family: "Manrope", system-ui;
+    letter-spacing: -3%;
+    font-weight: 600;
+    margin-right: 20em;
+    margin-left:20em;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: middle;
+}
+input{
+    color:white;
+    background-color:black;
+    border:1px solid rgb(57, 57, 57);
+    height:50px;
+    width:245px;
+    font-size:20px;
+    padding:10px;
+    margin:10px;
+    border-radius:15px;
+}
+button{
+    color:black;
+    background-color:white;
+    border:1px solid white;
+    width:265px;
+    height: 45px;
+    font-size:20px;
+    border-radius:150px;
+    margin:10px;
+    padding:10px;
+}
+button:hover{
+    color:white;
+    background-color:black;
+}
+.container{
+    height:1000px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.line{
+    background-color: rgb(57, 57, 57);
+    height: 1px;
+    width:100%;
+    margin:3.1em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.text{
+    color:rgb(77, 77, 77);
+    font-size: 18px;
+    justify-content: center;
+    text-decoration:none;
+}
+.text-a{
+    color:rgb(77, 77, 77);
+    font-size: 18px;
+    justify-content: center;
+    text-decoration:none;
+    margin:10px;
+}
+.text-a:hover{
+    color:white;
+}
+.text-accent{
+    color: rgb(27, 00, 194);
+    font-size: 18px;
+}
+h1{
+    font-size:50px;
+}
