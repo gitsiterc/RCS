@@ -1,5 +1,5 @@
 const users = {
-    'Max': 'MPftSWhPh1',
+    'Max': 'PWvonMax',
     'Luna': 'PWvonLuna',
     'Ben': 'PWvonBen'
 };
