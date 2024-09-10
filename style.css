@@ -3,7 +3,6 @@
 body{
     background-color: black;
     color:white;
-    font-family: "Manrope", sans-serif;
     letter-spacing: -3%;
     font-weight: 600;
     margin-right: 20em;
@@ -109,7 +108,6 @@ p{
     background-color: rgba(80, 80, 80, 0.211);
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
-    /*height:300px;*/
     width:200px;
     margin-right:25px;
     margin-top:10px;
@@ -144,4 +142,9 @@ p{
     align-items:center;
     height: 500px;
     width:100%;
+}
+.switch-drk-lgt{
+    height: 38px;
+    margin-right: 200px;
+    width: 200px;
 }
