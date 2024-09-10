@@ -1,5 +1,7 @@
 # RCS
 ## Changelog:
+### v0.1.2 BETA
+  - Changed Button Link to open in new Tab
 ### v0.1.1 BETA
   - Added light Mode
 
