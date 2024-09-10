@@ -30,3 +30,11 @@ document.getElementById('popupButton').addEventListener('click', function() {
 });
 
 
+function toggleStylesheet() {
+    const stylesheet = document.getElementById('stylesheet');
+    if (stylesheet.href.endsWith('style.css')) {
+        stylesheet.href = 'light.css';
+    } else {
+        stylesheet.href = 'style.css';
+    }
+}
