@@ -1,7 +1,9 @@
 # RCS
 ## Changelog:
+### v0.1.3 BETA
+  - Fixed issue, where User Menu popped up on Website loading.
 ### v0.1.2 BETA
-  - Changed Button Link to open in new Tab
+  - Changed Button Link to open in new Tab.
 ### v0.1.1 BETA
   - Added light Mode
 
