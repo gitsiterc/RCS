@@ -89,6 +89,9 @@ p{
     position:absolute;
     z-index: 1;
 }
+img{
+    border-radius: 20px;
+}
 .text{
     color:rgb(77, 77, 77);
     font-size: 18px;
