@@ -168,3 +168,6 @@ p{
     padding-left: 10px;
     padding-right: 10px;
 }
+.google::placeholder{
+    color: rgb(216, 216, 216);
+}
