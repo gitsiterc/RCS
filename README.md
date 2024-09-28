@@ -1,6 +1,8 @@
 # RCS
 ## Changelog:
-### v0.1.3 BETA
+### v0.1.4 BETA (28/09/2024)
+  - Added Google search Bar
+### v0.1.3 BETA (27/09/2024)
   - Fixed issue, where User Menu popped up on Website loading.
 ### v0.1.2 BETA
   - Changed Button Link to open in new Tab.
