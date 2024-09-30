@@ -1,6 +1,7 @@
 const users = {
     'Max': 'PWvonMax',
     'Luna': 'PWvonLuna',
+    'Levi': 'Banane14',
     'Ben': 'PWvonBen'
 };
 
