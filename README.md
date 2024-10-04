@@ -1,5 +1,7 @@
 # RCS
 ## Changelog:
+### v0.1.5 BETA (04/10/2024)
+  - Added Feedback Area.
 ### v0.1.4 BETA (28/09/2024)
   - Added Google search Bar
 ### v0.1.3 BETA (27/09/2024)
