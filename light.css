@@ -33,7 +33,7 @@ body{
 }
 .line{
     background-color: rgb(216, 216, 216);
-    height: 1px;
+    height: 1.2px;
     width:100%;
     margin:3.1em;
     margin-left: 0px;
