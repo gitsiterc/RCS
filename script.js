@@ -50,26 +50,36 @@ function toggleStylesheet() {
                 document.getElementById("content").innerHTML = `
                     <h1>Willkommen, Max!</h1>
                     <section class="header">
-                <p class="text">Suche hier alles mit Google</p>
-                    <form method="get" action="https://www.google.com/search">
-                    <input class="google" type="text" name="q" placeholder="Google Suche" size="31" value="">
-                    </form>
-            </section>
-            <div class="line"></div>
+                        <form method="get" action="https://www.google.com/search">
+                            <input class="google" type="text" name="q" placeholder="Google Suche" size="31" value="">
+                        </form>
+                        <br>
+                        <form method="get" action="https://en.wikipedia.org/w/index.php";>
+                        <input class="google" type="text" name="search" placeholder="Wikipedia Suche" size="31">
+                        </form>
+                    </section>
+                    <div class="line"></div>
+                    <section class="nml">
+                        <div class="div1">
+                            <p>YouTube</p>
+                            <p class="text">Videos, natürluch zum lernen.<br>Ja, ne ist klar. Aber hier findest <br> du sie.</p>
+                            <button type="button" onclick="window.open('https://www.youtube.com/','_blank')">Open</button>
+                        </div>
+                        <div class="imagebox"><br>Hier wird noch ein Bild eingefügt...</div>
+                    </section>
+                    <div class="line"></div>
                 `;
             } else if (username === "Levi") {
                 document.getElementById("content").innerHTML = `
-                    <h1>Willkommen, Levi!</h1>
-                    <p>Hier sind deine Inhalte.</p>
-                    <div>
-                        <img src="bild.jpg" alt="Ein Bild für Levi">
-                        <p>Ein spezieller Text für Levi.</p>
-                    </div>
+                    <h1>Willkommen, Levi.</h1>
+                    <p class="text">Bitte schreibe mir mit dem unten vorhandenem Feedback formular und deinem <br>username, welche Websites du gerne verlinkt hättest.</p>
+                    <div class="line">
                 `;
             } else {
                 document.getElementById("content").innerHTML = `
-                    <h1>Willkommen, Gast!</h1>
-                    <p>Bitte logge dich ein, um mehr zu sehen.</p>
+                    <h1>Willkommen, User.</h1>
+                    <p class="text">Bitte schreibe mir mit dem unten vorhandenem Feedback formular und deinem <br>username, welche Websites du gerne verlinkt hättest.</p>
+                    <div class="line">
                 `;
             }
         });
