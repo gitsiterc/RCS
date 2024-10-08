@@ -38,3 +38,44 @@ function toggleStylesheet() {
         stylesheet.href = 'style.css';
     }
 }
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Angenommen, der Benutzername wird in einem Cookie gespeichert
+            var username = getCookie("username");
+
+            if (username === "Max") {
+                document.getElementById("content").innerHTML = `
+                    <h1>Willkommen, Max!</h1>
+                    <p>Hier sind deine speziellen Inhalte.</p>
+                    <ul>
+                        <li>Inhalt 1</li>
+                        <li>Inhalt 2</li>
+                        <li>Inhalt 3</li>
+                    </ul>
+                    <div class="line"></div>
+                `;
+            } else if (username === "Levi") {
+                document.getElementById("content").innerHTML = `
+                    <h1>Willkommen, Levi!</h1>
+                    <p>Hier sind deine Inhalte.</p>
+                    <div>
+                        <img src="bild.jpg" alt="Ein Bild für Levi">
+                        <p>Ein spezieller Text für Levi.</p>
+                    </div>
+                `;
+            } else {
+                document.getElementById("content").innerHTML = `
+                    <h1>Willkommen, Gast!</h1>
+                    <p>Bitte logge dich ein, um mehr zu sehen.</p>
+                `;
+            }
+        });
+
+        function getCookie(name) {
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + name + "=");
+            if (parts.length === 2) return parts.pop().split(";").shift();
+        }
