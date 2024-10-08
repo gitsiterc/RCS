@@ -49,13 +49,13 @@ function toggleStylesheet() {
             if (username === "Max") {
                 document.getElementById("content").innerHTML = `
                     <h1>Willkommen, Max!</h1>
-                    <p>Hier sind deine speziellen Inhalte.</p>
-                    <ul>
-                        <li>Inhalt 1</li>
-                        <li>Inhalt 2</li>
-                        <li>Inhalt 3</li>
-                    </ul>
-                    <div class="line"></div>
+                    <section class="header">
+                <p class="text">Suche hier alles mit Google</p>
+                    <form method="get" action="https://www.google.com/search">
+                    <input class="google" type="text" name="q" placeholder="Google Suche" size="31" value="">
+                    </form>
+            </section>
+            <div class="line"></div>
                 `;
             } else if (username === "Levi") {
                 document.getElementById("content").innerHTML = `
