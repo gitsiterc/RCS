@@ -198,6 +198,10 @@ img{
     padding:5px;
     padding-left: 10px;
     padding-right: 10px;
+    max-height: 90px;
+    max-width: 244.15px;
+    min-height: 90px;
+    min-width: 244.15px;
 }
 .INPT-Feedback-2::placeholder{
     color: rgb(216, 216, 216);
