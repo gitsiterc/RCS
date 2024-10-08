@@ -77,14 +77,14 @@ function toggleStylesheet() {
                 `;
             } else if (username === "Luna") {
                 document.getElementById("content").innerHTML = `
-                    <h1>Willkommen, Luna!.</h1>
+                    <h1>Willkommen, Luna!</h1>
                     <section class="header">
                         <form method="get" action="https://www.google.com/search">
                             <input class="google" type="text" name="q" placeholder="Google Suche" size="31" value="">
                         </form>
                         <br>
-                        <form method="get" action="https://en.wikipedia.org/w/index.php";>
-                        <input class="google" type="text" name="search" placeholder="Wikipedia Suche" size="31">
+                        <form method="get" action="https://www.youtube.com/search">
+                            <input class="google" type="text" name="q" placeholder="YouTube Suche" size="31" value="">
                         </form>
                     </section>
                     <div class="line"></div>
