@@ -75,6 +75,29 @@ function toggleStylesheet() {
                     <p class="text">Bitte schreibe mir mit dem unten vorhandenem Feedback formular und deinem <br>username, welche Websites du gerne verlinkt hättest.</p>
                     <div class="line">
                 `;
+            } else if (username === "Luna") {
+                document.getElementById("content").innerHTML = `
+                    <h1>Willkommen, Luna!.</h1>
+                    <section class="header">
+                        <form method="get" action="https://www.google.com/search">
+                            <input class="google" type="text" name="q" placeholder="Google Suche" size="31" value="">
+                        </form>
+                        <br>
+                        <form method="get" action="https://en.wikipedia.org/w/index.php";>
+                        <input class="google" type="text" name="search" placeholder="Wikipedia Suche" size="31">
+                        </form>
+                    </section>
+                    <div class="line"></div>
+                    <section class="nml">
+                        <div class="div1">
+                            <p>Poki</p>
+                            <p class="text">Pass auf, dass dich kein Lehrer erwischt!</p>
+                            <button type="button" onclick="window.open('https://www.poki.de/','_blank')">Open</button>
+                        </div>
+                        <div class="imagebox"><br>Hier wird noch ein Bild eingefügt...</div>
+                    </section>
+                    <div class="line"></div>
+                `;
             } else {
                 document.getElementById("content").innerHTML = `
                     <h1>Willkommen, User.</h1>
