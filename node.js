@@ -2,11 +2,11 @@ const bcrypt = require('bcrypt');
 
 // Beispielhafte Benutzerliste mit gehashten Passwörtern (für den ersten Lauf ungesichert)
 const users = {
-    'Max': '$2b$10$wC7wi5h3RczpF06QzFuO9OcbnaZ0Ekd/GYsW0WnGdmwV/5yzsAD/S', // Hash von "PWvonMax"
-    'Luna': '$2b$10$wC7wi5h3RczpF06QzFuO9OcbnaZ0Ekd/GYsW0WnGdmwV/5yzsAD/S', // Hash von "PWvonLuna"
-    'Levi': '$2b$10$EDmPVNkRaAKmIhH2aJXvc.ez1xuH1rv8E/LuxDYj7JfyV/AxTE1CW', // Hash von "Banane14"
-    'Tamino': '$2b$10$3sEEMpv6lT2UlIie/gjcieZzNQpj5g5qqA5uCJY87ABbP9ZzGhKB.', // Hash von "7871"
-    'Ben': '$2b$10$wC7wi5h3RczpF06QzFuO9OcbnaZ0Ekd/GYsW0WnGdmwV/5yzsAD/S' // Hash von "PWvonBen"
+    'Max': '$2b$10$wC7wi5h3RczpF06QzFuO9OcbnaZ0Ekd/GYsW0WnGdmwV/5yzsAD/S', // Hash von
+    'Luna': '$2b$10$wC7wi5h3RczpF06QzFuO9OcbnaZ0Ekd/GYsW0WnGdmwV/5yzsAD/S', // Hash von
+    'Levi': '$2b$10$EDmPVNkRaAKmIhH2aJXvc.ez1xuH1rv8E/LuxDYj7JfyV/AxTE1CW', // Hash von 
+    'Tamino': '$2b$10$3sEEMpv6lT2UlIie/gjcieZzNQpj5g5qqA5uCJY87ABbP9ZzGhKB.', // Hash von 
+    'Ben': '$2b$10$wC7wi5h3RczpF06QzFuO9OcbnaZ0Ekd/GYsW0WnGdmwV/5yzsAD/S' // Hash von
 };
 
 // Funktion zum Hashen eines Passworts
@@ -45,7 +45,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
         localStorage.setItem('isLoggedIn', 'true');
         window.location.href = 'home.html';
     } else {
-        alert('Ungültiger Benutzername oder Passwort (versuchs doch nochmal. Wenns dann immer noch nicht klappt hast du n schlechtes gedächtnis. LOL)');
+        alert('Ungültiger Benutzername oder Passwort versuchs doch nochmal. ');
     }
 });
 
