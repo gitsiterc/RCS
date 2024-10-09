@@ -72,8 +72,7 @@ function toggleStylesheet() {
             } else if (username === "Levi") {
                 document.getElementById("content").innerHTML = `
                     <h1>Willkommen, Levi.</h1>
-                    <p class="text">Bitte schreibe mir mit dem unten vorhandenem Feedback formular und deinem <br>username, welche Websites du gerne verlinkt hättest.</p>
-                    <div class="line">
+                    <div class="line"></div>
                     <section class="nml">
                         <div class="div1">
                             <p>Untspa</p>
