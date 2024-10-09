@@ -78,7 +78,7 @@ function toggleStylesheet() {
                         <div class="div1">
                             <p>Untspa</p>
                             <p class="text">Du wolltest deine eigene seite haben ne?... <br> Hier ist die copy paste seite. <br> Nur spaß xD</p>
-                            <button type="button" onclick="window.open('https://www.youtube.com/','_blank')">Open</button>
+                            <button type="button" onclick="window.open('https://LeviBMG.github.io/untspa/Website','_blank')">Open</button>
                         </div>
                         <div class="imagebox"><br>Hier wird noch ein Bild eingefügt...</div>
                     </section>
