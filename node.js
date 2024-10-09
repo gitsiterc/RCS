@@ -40,14 +40,23 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (await login(username, password)) {
-        // Speichern des Login-Status im localStorage
+    const response = await fetch('https://rcs-4xuk.onrender.com/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, password })
+    });
+
+    const result = await response.json();
+    if (result.success) {
         localStorage.setItem('isLoggedIn', 'true');
-        window.location.href = 'home.html';
+        window.location.href = 'https://gitsiterc.github.io/RCS/home.html';
     } else {
-        alert('Ungültiger Benutzername oder Passwort versuchs doch nochmal. ');
+        alert('Ungültiger Benutzername oder Passwort (versuchs doch nochmal. Wenns dann immer noch nicht klappt hast du n schlechtes gedächtnis. LOL)');
     }
 });
+
 
 document.addEventListener("DOMContentLoaded", function() {
     // Angenommen, der Benutzername wird in einem Cookie gespeichert
