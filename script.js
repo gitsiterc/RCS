@@ -74,6 +74,15 @@ function toggleStylesheet() {
                     <h1>Willkommen, Levi.</h1>
                     <p class="text">Bitte schreibe mir mit dem unten vorhandenem Feedback formular und deinem <br>username, welche Websites du gerne verlinkt hättest.</p>
                     <div class="line">
+                    <section class="nml">
+                        <div class="div1">
+                            <p>Untspa</p>
+                            <p class="text">Du wolltest deine eigene seite haben ne?... <br> Hier ist die copy paste seite. <br> Nur spaß xD</p>
+                            <button type="button" onclick="window.open('https://www.youtube.com/','_blank')">Open</button>
+                        </div>
+                        <div class="imagebox"><br>Hier wird noch ein Bild eingefügt...</div>
+                    </section>
+                    <div class="line"></div>
                 `;
             } else if (username === "Luna") {
                 document.getElementById("content").innerHTML = `
