@@ -29,7 +29,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 */
 
-/*
+
 const users = {
     'Max': 'PWvonMax',
     'Luna': 'PWvonLuna',
@@ -86,9 +86,9 @@ function getCookie(name) {
     var parts = value.split("; " + name + "=");
     if (parts.length === 2) return parts.pop().split(";").shift();
 }
-*/
 
 
+/*
 document.getElementById('loginForm').addEventListener('submit', async function(event) {
     event.preventDefault();
     const username = document.getElementById('username').value;
@@ -111,3 +111,4 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     }
 });
 
+*/
