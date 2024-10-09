@@ -29,6 +29,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 });
 */
 
+/*
 const users = {
     'Max': 'PWvonMax',
     'Luna': 'PWvonLuna',
@@ -85,3 +86,28 @@ function getCookie(name) {
     var parts = value.split("; " + name + "=");
     if (parts.length === 2) return parts.pop().split(";").shift();
 }
+*/
+
+
+document.getElementById('loginForm').addEventListener('submit', async function(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    const response = await fetch('https://deine-app-name.onrender.com/login', { // Render-URL hier verwenden
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, password })
+    });
+
+    const result = await response.json();
+    if (result.success) {
+        localStorage.setItem('isLoggedIn', 'true');
+        window.location.href = 'home.html';
+    } else {
+        alert('Ungültiger Benutzername oder Passwort (versuchs doch nochmal. Wenns dann immer noch nicht klappt hast du n schlechtes gedächtnis. LOL)');
+    }
+});
+
