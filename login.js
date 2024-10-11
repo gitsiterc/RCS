@@ -74,6 +74,10 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("content").innerHTML = `
             heir könnte text stehen muss er aber nicht... (in HTML)
         `;
+    } else if (username === "Hugo") {
+        document.getElementById("content").innerHTML = `
+            heir könnte text stehen muss er aber nicht... (in HTML)
+        `;
     } else {
         document.getElementById("content").innerHTML = `
             heir könnte text stehen muss er aber nicht... (in HTML)
