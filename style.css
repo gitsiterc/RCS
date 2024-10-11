@@ -48,7 +48,7 @@ body{
     color:white;
     background-color: black;
     border: solid 1px white;
-    border-radius:100px;
+    border-radius:16px;
     height: 38px;
     width:185px;
     font-size:18px;
@@ -65,7 +65,7 @@ body{
 button{
     color:black;
     background-color:white;
-    border-radius:100px;
+    border-radius:16px;
     border:1px solid white;
     height:44px;
     width:156px;
