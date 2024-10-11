@@ -35,6 +35,7 @@ const users = {
     'Luna': 'PWvonLuna',
     'Levi': 'Banane14',
     'Tamino': '7871',
+    'Hugo': 'PWvonHugo',
     'Ben': 'PWvonBen'
 };
 
