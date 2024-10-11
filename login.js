@@ -58,7 +58,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         localStorage.setItem('isLoggedIn', 'true');
         window.location.href = 'home.html';
     } else {
-        alert('Ungültiger Benutzername oder Passwort (versuchs doch nochmal. Wenns dann immer noch nicht klappt hast du n schlechtes gedächtnis. LOL)');
+        alert('Ungültiger Benutzername oder Passwort. Bitte versuch es nocheinmal. Wenn es dann immer noch nicht klappt würd ich mir sorgen machen.');
     }
 });
 
